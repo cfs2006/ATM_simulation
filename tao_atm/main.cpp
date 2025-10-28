@@ -9,7 +9,7 @@
 using namespace std;
 
 int main() {
-    string filePath = "C:\\Users\\pun\\Desktop\\ATM_simulation\\mo_phong_DB\\account.json";
+    string filePath = "../mo_phong_DB/account.json";
 
     cout << "==== MAY ATM MO PHONG ====" << endl;
     
