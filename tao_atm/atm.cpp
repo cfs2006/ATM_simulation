@@ -279,13 +279,13 @@ void ATM::handleWithdrawal() {
         int wantsReceipt = promptReceipt(); // Hàm này đã tự dọn buffer
 
         if (wantsReceipt == 1) {
-            wait_enter("Dang tao hoa don");
-            wait_enter("Vui long lay hoa don");
-            wait_enter("Xin hay nhan tien");
-            wait_enter("Cam on quy khach");
+            cout << "Dang tao hoa don...\n";
+            wait_enter("Vui long lay hoa don (Nhan Enter de tiep tuc)");
+            wait_enter("Xin hay nhan tien (Nhan Enter de tiep tuc)");
+            cout << "Cam on quy khach\n";
         } else {
-            wait_enter("Xin hay nhan tien");
-            wait_enter("Cam on quy khach");
+            wait_enter("Xin hay nhan tien (Nhan Enter de tiep tuc)");
+            cout << "Cam on quy khach\n";
         }
 
         if (!saveAccounts()) {
@@ -319,7 +319,7 @@ void ATM::handleDeposit() {
 
         if (wantsReceipt == 1) {
             cout << "Dang tao hoa don...\n";
-            wait_enter("Vui long lay hoa don");
+            wait_enter("Vui long lay hoa don (Nhan Enter de tiep tuc)");
             cout << "Cam on quy khach\n";
         } else {
             cout << "Cam on quy khach\n";
