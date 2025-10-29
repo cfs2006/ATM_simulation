@@ -19,6 +19,7 @@
 ## Hướng dẫn biên dịch
 
 Mở terminal trong thư mục dự án và chạy lệnh sau:
+*cd tao_atm
 
 * g++ main.cpp atm.cpp -o main.exe -std=c++17
   
