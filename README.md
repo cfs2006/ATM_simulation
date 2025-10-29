@@ -20,7 +20,8 @@
 
 Mở terminal trong thư mục dự án và chạy lệnh sau:
 
-* g++ main.cpp atm.cpp -o main.exe -std=c++17;  (-std=c++17 là tùy chọn để đảm bảo tương thích với thư viện JSON và các cú pháp C++ hiện đại)
+* g++ main.cpp atm.cpp -o main.exe -std=c++17
+  
 * ./main.exe 
 
 ### Lưu ý: không bấm nút RUN trong IDE vì bài này bao gồm 2 file cpp khác nhau, phải xem kĩ là đang cd đến thư mục 'tao_atm' thì mới bắt đầu biên dịch (lệnh cd trong CMD được dùng để thay đổi thư mục hiện tại).
