@@ -13,7 +13,7 @@
 
 ## Yêu cầu
 
-* Một trình biên dịch C++ (ví dụ: g++, Clang, MSVC).
+* Một trình biên dịch C++ (ví dụ: g++, Clang, MSVC, MINGW64,...).
 * Thư viện **json.hpp** của Nlohmann (cần đặt file `json.hpp` trong cùng thư mục dự án).
 
 ## Hướng dẫn biên dịch
